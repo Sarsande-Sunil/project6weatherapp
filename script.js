@@ -6,8 +6,8 @@ document.getElementById("search").addEventListener("click", myfun)
 function myfun(){
     let city = document.getElementById("city").value;
     console.log("here")
-     console.log(city)
-     displayitems(city)
+    console.log(city)
+    displayitems(city)
 }
 
 async function displayitems(city){
